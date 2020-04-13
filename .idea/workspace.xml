@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db254500-6a5c-4896-b142-5b8ef32f3fdf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZQlEJwN65b9ZVBuW7M5Xat9B85" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.splitter.proportion" value="0.27006507" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\beda0\Desktop\cyclomatic\assets\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.LiveEdit">
+    <configuration name="LiveEdit" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/cyclomatic/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cyclomatic/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.LiveEdit" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db254500-6a5c-4896-b142-5b8ef32f3fdf" name="Default Changelist" comment="" />
+      <created>1584779085429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584779085429</updated>
+      <workItem from="1584779087064" duration="4036000" />
+      <workItem from="1584949660341" duration="540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2094" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584782715483">
+      <screen x="1920" y="0" width="1440" height="870" />
+    </state>
+    <state x="2094" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1440.870@1920.0.1440.870" timestamp="1584782715483" />
+    <state x="2420" y="189" key="FileChooserDialogImpl" timestamp="1584782687687">
+      <screen x="1920" y="0" width="1440" height="870" />
+    </state>
+    <state x="2420" y="189" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1440.870@1920.0.1440.870" timestamp="1584782687687" />
+    <state x="2171" y="77" key="SettingsEditor" timestamp="1584782763631">
+      <screen x="1920" y="0" width="1440" height="870" />
+    </state>
+    <state x="2171" y="77" key="SettingsEditor/0.0.1920.1050/1920.0.1440.870@1920.0.1440.870" timestamp="1584782763631" />
+  </component>
+</project>

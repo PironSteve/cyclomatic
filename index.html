@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/1582c65981.js" crossorigin="anonymous"></script>
+    <title>Cyclomatic</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/img/bande2.png" width="150px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">L'équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="video">
+        <h1>Le système de transmission qui réinvente la façon de rouler à vélo</h1>
+        <div class="video-container">
+            <video width="50%" controls>
+                <source src="./assets/videos/Cyclomatic_05_FR_ok.mp4">
+            </video>
+        </div>
+        <svg id="top-section-border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <polygon fill="#61BEAE" points="0,100 100,0 100,100" /> //0,0 0,100 100,0
+        </svg>
+    </section>
+    <section id="cyclomatic">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cyclo">
+                                <img src="assets/img/bande1_FRinvert.png" width="100%" height="100%"
+                                    alt="cyclomatic-fr" />
+                            </div>
+                        </div>
+                        <div class="advantage col-md-6">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500"
+                                        class="card card-body">
+                                        <h5>Le traditionnel dérailleur est remplacé
+                                            par un système hydrostatique qui
+                                            adapte en permanence le
+                                            développement du vélo pour maintenir
+                                            la cadence de pédalage souhaitée.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500"
+                                        class="card card-body">
+                                        <h5>Gamme de rapports allant de 1:1 à 1:5,
+                                            équivalent à un vélo 18 vitesses
+                                            <br />
+                                            <i class="fas fa-arrow-right"></i> du jamais vu sur un vélo à changement
+                                            automatique à variation continue !
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500"
+                                        class="card card-body">
+                                        <h5>Poids d'environ 4,5 kg, duquel il faut
+                                            déduire le poids des plateaux, du
+                                            dérailleur etc.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg id="bottom-section-border" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <polygon fill="#61BEAE" points="0,0 0,100 100,0" /> //0,0 0,100 100,0
+        </svg>
+    </section>
+    <section id="confortable">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row img-row">
+                        <div class="col-md-12">
+                            <img data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500"
+                                class="title-confortable" alt="confortable-title" src="assets/img/bande14_FR.png" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage confortable" src="assets/img/bande4.png" />
+                                <p>
+                                    Esprit libéré, pas besoin de changer de vitesse,pas besoin d'anticiper
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage confortable" src="assets/img/bande5.png" />
+                                <p>
+                                    Cadence de pédalage
+                                    constante, le vélo adapte
+                                    le rapport automatiquement
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage confortable" src="assets/img/bande7.png" />
+                                <p>
+                                    Pas d'à-coups, la variation
+                                    est fine et précise, pas de
+                                    rapport de vitesse prédéfini
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage confortable" src="assets/img/bande8.png" />
+                                <p>
+                                    Silencieux et propre, pas
+                                    de chaine ni de graisse,
+                                    oubliées les pinces à vélo !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="simple-fiable">
+        <div class="container-fluid">
+            <div class="row img-row">
+                <div class="col-md-6">
+                    <img data-aos="fade-right" data-aos-offset="150" data-aos-duration="1500"
+                        class="title-simple-fiable" alt="sime-fiable-title" src="./assets/img/bande16_FR.png" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div data-aos="fade-right" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage simple" src="./assets/img/bande10.png" />
+                                <p>
+                                    Pas d'apprentissage
+                                    spécifique puisque pas de
+                                    vitesse à changer
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div data-aos="fade-right" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage simple" src="./assets/img/bande12.png" />
+                                <p>
+                                    Entretien très limité
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500" class="title-simple-fiable"
+                        alt="sime-fiable-title" src="./assets/img/bande17_FR.png" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage fiable" src="./assets/img/bande11.png" />
+                                <p>
+                                    Intégration d'éléments de
+                                    technologie éprouvée et 100%
+                                    lubrifiée, pas de surprise
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage fiable" src="./assets/img/bande13.png" />
+                                <p>
+                                    Pas de risque de déraillement
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="efficace">
+        <div class="container-fluid">
+            <div class="row img-row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6">
+                    <img data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="title-efficace"
+                        alt="confortable-title" src="assets/img/bande15_FR.png" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage efficace" src="assets/img/bande6.png" />
+                                <p>
+                                    Pas d'effort inutile, la force
+                                    humaine est utilisée au mieux,
+                                    le rapport est toujours idéal
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" class="jumbotron">
+                                <img alt="avantage efficace" src="assets/img/bande9.png" />
+                                <p>
+                                    Très bon rendement du
+                                    système, très peu de perte
+                                    d'énergie
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="sticky-footer" class="py-4 ">
+        <div class="container text-center">
+            <small>Copyright &copy; Cyclomatic 2020 - Made by Piron Steve / Design by Guerriat Adeline</small>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
